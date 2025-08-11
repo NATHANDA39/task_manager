@@ -1,0 +1,75 @@
+#Python full name to UPPERCASE program 
+
+#Ask the user to enter their first name 
+#First_name = input("Please enter your first name: \n")
+
+# Ask the user to enter their second name
+#Last_name = input("Please enter your last name: \n")
+
+#Print user's full name in UPPERCASE 
+#full_name = f"{First_name} {Last_name}"
+
+#print(f"Your full name is: {full_name.upper()}")
+
+
+#Logical operators 
+
+#age = input("How old are you?\n")
+#if 18 <= int(age) <=45:
+#if int(age) >= 18 and int(age) <= 45: # And helps to find the age range 
+ #   print("You can have access.")
+#else: 
+ #   print("You are not allowed here.")
+
+# Python Even or Odd program
+
+# Ask user to input an integer 
+#Question = input("input an integer \n")
+# Find the integer moudulo 2 
+#if int(Question) % 2 == 0: 
+## if the modulo is equal to 2 print Even 
+  #  print ("Even")
+# Else print Odd 
+#else:
+ #   print("Odd")
+    
+# Python Grade Calculator program
+
+# # Ask user to input thier score as a number 
+# score = input("input your score: ")
+# # If score is between 90 to 100 (inclusive) print grade A 
+# if int(score) >= 90 and int(score)<= 100:
+#     print("Grade A")
+# # If score is between 80 to 89 (inclusive) print grade B
+# if int(score) >= 80 and int(score)<= 89:
+#     print("Grade B")
+# # If score is between 70 to 79 (inclusive) print grade C 
+# if int(score) >= 70 and int(score)<= 79:
+#     print("Grade C")
+# # If score is between 60 to 69 (inclusive) print grade D
+# if int(score) >= 60 and int(score)<= 69:
+#     print("Grade D")
+# # If score is between 0 to 59 (inclusive) print grade F
+# if int(score) >= 0 and int(score)<= 59:
+#     print("Grade F")
+
+
+# Ask user to input their score as a number
+#score = float(input("Input your score: "))
+
+# Check if the score is between 90 to 100 (inclusive)
+#if 90 <= score <= 100:
+ #   print("Grade A")
+#else:
+ #   print("Not Grade A")
+
+
+# Ask user to input thier purchase amount as float 
+purchase_amount =  float
+
+# if the purchase is 1 cedis or more apply 2 % discount and print amount to pay 
+# if the purhase is 5 cedis or more apply 1% discount and print amount to pay 
+# if the purchase is less than 5 cedis apply no sicount and print amonunt to pay
+
+
+#
