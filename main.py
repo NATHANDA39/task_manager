@@ -130,22 +130,22 @@ sum = 0
 #   return "User register successfully!"
 # response = register_user("Nathan Lartey","nathanlartey33@gmail.com","123456")
 
-import add
-import show
-import update
-import delete
+# import add
+# import show
+# import update
+# import delete
 
-add_task_response = add.add_tasks("sleep")
-print(add_task_response)
+# add_task_response = add.add_tasks("sleep")
+# print(add_task_response)
 
-show_task_response = show.show_tasks()
-print(show_task_response)
+# show_task_response = show.show_tasks()
+# print(show_task_response)
 
-update_task_response = update.update_tasks("sleep", "Wake Up")
-print (update_task_response)
+# update_task_response = update.update_tasks("sleep", "Wake Up")
+# print (update_task_response)
 
-delete_tasK_response = delete.delete_task("Wake Up")
-print (delete_tasK_response)
+# delete_tasK_response = delete.delete_task("Wake Up")
+# print (delete_tasK_response)
 
 
 
