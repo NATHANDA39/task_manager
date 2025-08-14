@@ -1,3 +1,4 @@
+
 #Python full name to UPPERCASE program 
 
 #Ask the user to enter their first name 
@@ -72,4 +73,82 @@ purchase_amount =  float
 # if the purchase is less than 5 cedis apply no sicount and print amonunt to pay
 
 
-#
+# # Ask user to input the length of the 3 sides of a triangle
+# x = float (input("Enter the first side"))
+# y = float (input("Enter the second side"))
+# z = float (input("Enter the third side"))
+# # If all sides are equal print Equilateral
+# if x == y and y == z:
+#     print(f"you have an Equilateral")
+# # If 2 sides are equz al print Isosceles
+# elif x == y and y == z or x == z:
+#     print(f"you have an Isosceles")
+
+
+# List 
+# file = open ("task.txt","r")
+# print(file.read())
+
+# file = open ("tasks.txt","r")
+# tasks = file.read().split("\n")
+# for task in tasks:
+#     print(f"{tasks.index(task)+1}. {task}")
+
+# Using loop 
+# use loop to calculate the sum of the numbers below 
+numbers = [10, 5, 20, 8, 15]
+
+numbers = [10, 5, 20, 8, 15]
+sum = 0
+# total_sum = 0
+
+# for number in numbers:
+#     total_sum += number
+
+# print("Sum of the numbers:", total_sum)
+
+# for number in numbers:
+#     sum = sum + number 
+# print(sum)
+
+# Open the file emails.txt in READ mode 
+# Read and split the dat using \n to get a list 
+# Lopp over the list emails and print a generated username for each of them
+# i.e. username is all characters before the @ 
+
+
+# Python function
+#Define a register user function 
+
+# # def calaculate_sum(num1, num2): 
+# def register_user(name, email, password):
+#   # Check if user does not already exist 
+#   # Hash user password 
+#   # Check if email is valid 
+#   # Check if user is not a robot 
+#   # Return response
+#   return "User register successfully!"
+# response = register_user("Nathan Lartey","nathanlartey33@gmail.com","123456")
+
+import add
+import show
+import update
+import delete
+
+add_task_response = add.add_tasks("sleep")
+print(add_task_response)
+
+show_task_response = show.show_tasks()
+print(show_task_response)
+
+update_task_response = update.update_tasks("sleep", "Wake Up")
+print (update_task_response)
+
+delete_tasK_response = delete.delete_task("Wake Up")
+print (delete_tasK_response)
+
+
+
+
+
+
