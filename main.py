@@ -148,6 +148,22 @@ sum = 0
 # print (delete_tasK_response)
 
 
+# from oop import Chat
+
+# chat_with_abena = Chat("Abena Jollof", "Be guided!", "7:30 PM")
+# chat_with_vicky = Chat ("Vcky Diwra", "Extend the portfolio", "5:50 PM")
+# chat_with_0202728563 = Chat("The Closer", "when we are ending the class?", "3:59 PM")
+
+# print(chat_with_0202728563.open())
+
+from oop import Chat
+
+chat_with_abena = Chat()
+
+
+print(chat_with_abena)
+
+
 
 
 
