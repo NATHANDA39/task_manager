@@ -66,7 +66,7 @@
 
 
 # Ask user to input thier purchase amount as float 
-purchase_amount =  float
+# purchase_amount =  float
 
 # if the purchase is 1 cedis or more apply 2 % discount and print amount to pay 
 # if the purhase is 5 cedis or more apply 1% discount and print amount to pay 
@@ -96,10 +96,10 @@ purchase_amount =  float
 
 # Using loop 
 # use loop to calculate the sum of the numbers below 
-numbers = [10, 5, 20, 8, 15]
+# numbers = [10, 5, 20, 8, 15]
 
-numbers = [10, 5, 20, 8, 15]
-sum = 0
+# numbers = [10, 5, 20, 8, 15]
+# sum = 0
 # total_sum = 0
 
 # for number in numbers:
@@ -156,14 +156,32 @@ sum = 0
 
 # print(chat_with_0202728563.open())
 
-from oop import Chat
+# from oop import Chat
 
-chat_with_abena = Chat()
-
-
-print(chat_with_abena)
+# chat_with_abena = Chat()
 
 
+# print(chat_with_abena)
+
+# from add import add_tasks
+# from show import show_tasks
+
+# task_title = input("What task are you going to do?: ")
+# add_tasks({"title":task_title})
+
+# for task in show_tasks():
+#   print(task)
+
+import tkinter as tk
+import ui
+
+app = tk.Tk()
+app.title("Task Manager")
+app.geometry("720x480")
+
+ui.show_all_tasks_frame(app)
+
+app.mainloop()
 
 
 
