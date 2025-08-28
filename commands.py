@@ -12,8 +12,9 @@ def delete_task(id):
     #Return response
     return True
 
-def update_task(task, update):
+def update_task(id, update):
     #update task in database
+    db.tasks.update_one({"_id": id},{"$set": update})
     #Return response
     return True
 
